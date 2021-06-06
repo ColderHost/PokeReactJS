@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cardHolder {
+    width: 30%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 60%;
+    display:flex;
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+.card1 {
+    display:block;
+    width: 30%;
+    position: absolute;
+    top: 350px;
+    right: 40px;
+}
+
+.cardButton {
+    cursor: pointer;
+}
+
+.disabled {display: none !important;}
+
